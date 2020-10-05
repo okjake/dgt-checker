@@ -12,7 +12,7 @@ const LOCATIONS = [
   for (let i = 0; i < LOCATIONS.length; i++) {
     const location = LOCATIONS[i];
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
     await page.goto(DGT_URL);
