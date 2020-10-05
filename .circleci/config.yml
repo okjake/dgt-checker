@@ -4,7 +4,8 @@ workflows:
     triggers:
       - schedule:
           cron: "*/15 * * * *"
-    jobs: get-me-an-appointment
+    jobs:
+      - get-me-an-appointment
 jobs:
   get-me-an-appointment:
     docker:
