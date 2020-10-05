@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/okjake/dgt-checker/issues"
   },
-  "homepage": "https://github.com/okjake/dgt-checker#readme"
+  "homepage": "https://github.com/okjake/dgt-checker#readme",
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  }
 }
