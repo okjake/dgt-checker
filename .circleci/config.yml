@@ -1,8 +1,14 @@
 version: 2.1
+workflows:
+  scheduled:
+    triggers:
+      - schedule:
+          cron: "*/15 * * * *"
+    jobs: get-me-an-appointment
 jobs:
-  build:
-    docker: 
-      - image: cimg/node:14.10.1 
+  get-me-an-appointment:
+    docker:
+      - image: cimg/node:14.10.1
     steps:
       - checkout
       - run:
