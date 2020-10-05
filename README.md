@@ -1,6 +1,7 @@
 # dgt-checker
 
-Due to the infinite wisdom of our compatriots, British people in Europe have until the end of 2020 to exchange driving licenses for a European counterpart.  
+Due to the infinite wisdom of our leadership and compatriots, British people in Europe have until the end of 2020 to exchange driving licenses for a European counterpart.  
+
 Due to COVID, appointments to make the exchange are severly limited in Spain.  
 
 I'm using this script to check the website and alert me when new appointments become available in Barcelona or Tarragona.  
