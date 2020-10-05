@@ -12,8 +12,8 @@ workflows:
       - get-me-an-appointment
 jobs:
   get-me-an-appointment:
-    docker:
-      - image: cimg/node:14.10.1
+    machine:
+      image: "ubuntu-1604:201903-01"
     steps:
       - checkout
       - run:
