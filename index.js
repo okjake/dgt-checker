@@ -39,11 +39,13 @@ const LOCATIONS = [
         `There are potential slots available in ${location[0]}. Check state.png`
       );
       await browser.close();
-      process.exit(0);
+      process.exit(1);
     } else {
       console.log(`No slots available in ${location[0]}`);
       await browser.close();
     }
   }
-  process.exit(1);
+
+  // Success means no slots available
+  process.exit(0);
 })();
